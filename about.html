@@ -73,37 +73,6 @@
         margin-bottom: 0;
       }
     }
-
-    /* --- Photo hover effect styles --- */
-    .photo-container {
-        position: relative;
-        width: 200px; /* Changed to 200px */
-        height: 200px; /* Changed to 200px */
-        margin: 30px 0;
-        cursor: pointer; 
-    }
-
-    .photo-container img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        transition: opacity 0.4s ease-in-out;
-    }
-
-    .photo-container .image-hover {
-        opacity: 0;
-    }
-
-    .photo-container:hover .image-hover {
-        opacity: 1;
-    }
-
-    .photo-container .image-base {
-        opacity: 1;
-    }
-    /* --- END of photo styles --- */
   </style>
 </head>
 <body>
@@ -165,14 +134,7 @@
       <p>And sometimes, you need somebody else to see what you've been too close to notice.
       We're in the business of giving care to the product you continuously lose sleep over.</p>
 
-      <!-- Photo container with updated size -->
-      <div class="photo-container">
-        <!-- Placeholder URLs updated to 200x200 -->
-        <img src="https://placehold.co/200x200/000000/FFFFFF?text=Base+Image" alt="First image" class="image-base">
-        <img src="https://placehold.co/200x200/EEEEEE/000000?text=Hover+Image" alt="Second image that appears on hover" class="image-hover">
-      </div>
-
-      <p style="margin-top: 30px;"><a href="inspo.html">My Inspo</a></p>
+      <p style="margin-top: 20px;"><a href="inspo.html">My Inspo</a></p>
 
       <div class="socials" aria-label="Social links">
         Follow me:
@@ -185,7 +147,7 @@
       <p class="cta">Contact: <a href="mailto:hello@example.com">hello@example.com</a></p>
     </main>
   </div>
-  
+    
 </body>
 </html>
 
