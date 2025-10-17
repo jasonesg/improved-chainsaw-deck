@@ -67,10 +67,10 @@
     /* --- Photo hover effect styles --- */
     .photo-container {
         position: relative;
-        width: 180px; /* Changed from 100% to match new image size */
-        height: 180px; /* Set a fixed height */
+        width: 180px; /* Set to image width */
+        height: 180px; /* Set to image height */
         margin: 30px 0;
-        cursor: pointer; /* Indicates it's interactive */
+        cursor: pointer; 
     }
 
     .photo-container img {
@@ -82,7 +82,6 @@
         transition: opacity 0.4s ease-in-out;
     }
 
-    /* The image that is on top and fades in on hover */
     .photo-container .image-hover {
         opacity: 0;
     }
@@ -91,7 +90,6 @@
         opacity: 1;
     }
 
-    /* The base image that is visible by default */
     .photo-container .image-base {
         opacity: 1;
     }
@@ -123,16 +121,12 @@
       <p>If that's you, we offer an opportunity to do your life's work and help solve the most important technical challenge of our age.</p>
       <p>It's ridiculously unreasonable that it might actually work out.</p>
 
-      <!-- Photo hover section added here -->
       <h3>Photography</h3>
+      <!-- Photo container with updated image paths -->
       <div class="photo-container">
-        <!-- Base image (visible by default) -->
-        <img src="https://placehold.co/180x180/000000/FFFFFF?text=Before" alt="First image" class="image-base">
-        <!-- Hover image (fades in on top) -->
-        <img src="https://placehold.co/180x180/EEEEEE/000000?text=After" alt="Second image that appears on hover" class="image-hover">
+        <img src="sketch 1.png" alt="A sketch drawing" class="image-base">
+        <img src="jasonirl.jpg" alt="A photo of Jason" class="image-hover">
       </div>
-      <!-- END of photo section -->
-
     </main>
   </div>
   
